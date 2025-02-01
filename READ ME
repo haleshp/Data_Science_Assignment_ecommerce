@@ -1,0 +1,78 @@
+Data Science Assignment: eCommerce Transactions Dataset
+Overview
+This assignment involves performing data analysis and developing machine learning models using an eCommerce Transactions dataset. The dataset consists of three files: Customers.csv, Products.csv, and Transactions.csv. Your task is to perform exploratory data analysis (EDA), build a lookalike model, and apply customer segmentation (clustering) techniques.
+Files Overview
+The dataset includes the following CSV files:
+•	Customers.csv: Contains customer details.
+•	Products.csv: Contains product information.
+•	Transactions.csv: Contains transaction history.
+File Descriptions
+1. Customers.csv
+•	CustomerID: Unique identifier for each customer.
+•	CustomerName: Name of the customer.
+•	Region: Continent where the customer resides.
+•	SignupDate: Date when the customer signed up.
+2. Products.csv
+•	ProductID: Unique identifier for each product.
+•	ProductName: Name of the product.
+•	Category: Product category.
+•	Price: Product price in USD.
+3. Transactions.csv
+•	TransactionID: Unique identifier for each transaction.
+•	CustomerID: ID of the customer who made the transaction.
+•	ProductID: ID of the product sold.
+•	TransactionDate: Date of the transaction.
+•	Quantity: Quantity of the product purchased.
+•	TotalValue: Total value of the transaction.
+•	Price: Price of the product sold.
+Assignment Tasks
+Task 1: Exploratory Data Analysis (EDA) and Business Insights
+1.	Perform exploratory data analysis (EDA) on the provided dataset.
+2.	Derive at least 5 business insights from the EDA.
+o	Write these insights in short point-wise sentences (maximum 100 words per insight).
+Deliverables:
+•	Jupyter Notebook/Python Script: Contains your EDA code.
+•	PDF Report: Includes business insights (maximum 500 words).
+________________________________________
+Task 2: Lookalike Model
+1.	Build a Lookalike Model that recommends 3 similar customers based on their profile and transaction history.
+o	The model should use both customer and product information.
+o	Assign a similarity score to each recommended customer.
+Deliverables:
+•	Lookalike.csv: Map customer IDs to their top 3 lookalikes with similarity scores.
+•	Jupyter Notebook/Python Script: Explains your model development.
+Evaluation Criteria:
+•	Model accuracy and logic.
+•	Quality of recommendations and similarity scores.
+________________________________________
+Task 3: Customer Segmentation / Clustering
+1.	Perform customer segmentation using clustering techniques.
+o	Use both profile information (from Customers.csv) and transaction data (from Transactions.csv).
+o	Choose any clustering algorithm and any number of clusters between 2 and 10.
+o	Calculate clustering metrics, including the DB Index.
+o	Visualize your clusters using relevant plots.
+Deliverables:
+•	Clustering Report: Includes the number of clusters formed, DB Index value, and other relevant clustering metrics.
+•	Jupyter Notebook/Python Script: Contains your clustering code.
+Evaluation Criteria:
+•	Clustering logic and metrics.
+•	Visual representation of clusters.
+________________________________________
+Submission Instructions
+1.	GitHub Link:
+o	Upload all the PDF and code files in a public GitHub repository.
+2.	File Naming Convention:
+o	FirstName_LastName_EDA.pdf
+o	FirstName_LastName_EDA.ipynb
+o	FirstName_LastName_Lookalike.csv
+o	FirstName_LastName_Lookalike.ipynb
+o	FirstName_LastName_Clustering.pdf
+o	FirstName_LastName_Clustering.ipynb
+Make sure to follow the file naming convention and structure your repository accordingly.
+________________________________________
+Resources
+•	Dataset Links:
+o	Customers.csv
+o	Products.csv
+o	Transactions.csv
+
